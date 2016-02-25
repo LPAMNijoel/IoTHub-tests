@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MQTTClient", "MQTTClient\MQTTClient.csproj", "{C41FF39F-3E9E-4A83-B46C-014D07524CB8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreateDeviceIdentity", "DeviceRegistration\CreateDeviceIdentity.csproj", "{79AACF8B-F81A-47B5-81FC-85CA9F662893}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReadDeviceToCloudMessages", "ReadDeviceToCloudMessages\ReadDeviceToCloudMessages.csproj", "{1F76A3A4-2FEF-4B9A-8717-E6211363C374}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AMQPClient", "SimulatedDevice1\AMQPClient.csproj", "{3DE4C83E-3365-4F66-8FE8-451DD38F2A21}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M2MQTTClient", "M2MQTTClient\M2MQTTClient.csproj", "{301AF24C-B094-48DC-9011-8EB033A38F3D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C41FF39F-3E9E-4A83-B46C-014D07524CB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C41FF39F-3E9E-4A83-B46C-014D07524CB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C41FF39F-3E9E-4A83-B46C-014D07524CB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C41FF39F-3E9E-4A83-B46C-014D07524CB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79AACF8B-F81A-47B5-81FC-85CA9F662893}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79AACF8B-F81A-47B5-81FC-85CA9F662893}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79AACF8B-F81A-47B5-81FC-85CA9F662893}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79AACF8B-F81A-47B5-81FC-85CA9F662893}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F76A3A4-2FEF-4B9A-8717-E6211363C374}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F76A3A4-2FEF-4B9A-8717-E6211363C374}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F76A3A4-2FEF-4B9A-8717-E6211363C374}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F76A3A4-2FEF-4B9A-8717-E6211363C374}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DE4C83E-3365-4F66-8FE8-451DD38F2A21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DE4C83E-3365-4F66-8FE8-451DD38F2A21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DE4C83E-3365-4F66-8FE8-451DD38F2A21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DE4C83E-3365-4F66-8FE8-451DD38F2A21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{301AF24C-B094-48DC-9011-8EB033A38F3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{301AF24C-B094-48DC-9011-8EB033A38F3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{301AF24C-B094-48DC-9011-8EB033A38F3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{301AF24C-B094-48DC-9011-8EB033A38F3D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
