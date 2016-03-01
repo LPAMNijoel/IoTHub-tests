@@ -28,9 +28,9 @@ namespace M2MQTTClient
             //clientID - it's the device ID I used to register my device
             String clientID = "MQTTDevice";
             //username - it's my IoT Hub URI / ClientID
-            String username = "RPIdemo.azure-devices.net/MQTTDevice";
+            String username = "<your IoT Hub URI/ClientID>";
             //Password - SAS Token taken from Device Explorer, removing the initial part (before SharedAccessSignature sr=...)
-            String password = "SharedAccessSignature sr=RPIdemo.azure-devices.net%2fdevices%2fMQTTDevice&sig=5l3pn49jwZAjWP47yr972FvF%2bHHuXkjBStMcs43n3uM%3d&se=1456682185";
+            String password = "SharedAccessSignature sr=******&sig=*********";
 
             Console.WriteLine("M2MQTTClient Device\n");
            

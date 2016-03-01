@@ -13,8 +13,8 @@ namespace SimulatedDevice1
     {
         private static int MESSAGE_COUNT = 3;
         static DeviceClient deviceClient;
-        private static string iotHubUri = "RPIdemo.azure-devices.net";
-        private static string deviceKey = "wDpWZtDsxevCPZoG6vpDDs9l56NTlwLyoNsBvf9pTCk=";
+        private static string iotHubUri = "<Your IoT Hub URI>";
+        private static string deviceKey = "<your device key>";
         private static string deviceID = "AMQPDevice";
 
         private static async void SendDeviceToCloudMessagesAsync()

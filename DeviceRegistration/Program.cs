@@ -5,16 +5,19 @@ using System.Text;
 using System.Threading.Tasks;
 using Microsoft.Azure.Devices;
 using Microsoft.Azure.Devices.Common.Exceptions;
+using System.Configuration;
 
 namespace DeviceRegistration
 {
     class Program
     {
         static RegistryManager registryManager;
-        static string connectionString = "HostName=RPIdemo.azure-devices.net;SharedAccessKeyName=iothubowner;SharedAccessKey=O2ZQGk40/o8vUxUCCl82UV7c7kq1akXNJLPSg6FFQ0c=";
+        static string connectionString = "<your IoT Hub connection string>";
 
         private async static Task AddDeviceAsync()
         {
+                       
+
             //deviceId is the string I wanto to use to register to my device
             string deviceId = "MQTTDevice";
             Device device;
